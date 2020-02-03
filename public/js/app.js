@@ -5,7 +5,7 @@ const result = document.querySelector('#result')
 
 searchForm.addEventListener('submit', (e) => {
     e.preventDefault()
-    const url = 'http://localhost:3000/weather?search='+ search.value
+    const url = '/weather?search='+ search.value
     loading.textContent = "Loading ... "
     result.textContent = ''
 
